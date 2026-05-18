@@ -15,7 +15,7 @@ def sum_to_n(n):
             suma=suma+i
     return suma # Remove this line and implement
 
-print(sum_to_n(5))
+
 def sum_evens(n):
     """
     Retorna la suma de todos los numeros pares desde 1 hasta n (inclusive).
@@ -34,7 +34,7 @@ def sum_evens(n):
     return suma
     # Remove this line and implement
 
-print(sum_evens(10))
+
 def factorial(n):
     """
     Retorna el factorial de n (n!).
@@ -49,4 +49,5 @@ def factorial(n):
         for i in range(1,n+1):
             suma=suma*i
     return suma
+
 

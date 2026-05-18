@@ -25,11 +25,6 @@ def collatz_steps(n):
         return 0
     return len(lst)
 
-print(collatz_steps(1))
-
-
-
-
 def collatz_sequence(n):
     """
     Retorna la secuencia completa de Collatz como una lista,
